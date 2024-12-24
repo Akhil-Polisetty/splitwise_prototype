@@ -1,0 +1,16 @@
+POST http://localhost:3000/api/register
+Content-Type: application/json
+
+{
+    "name":"dumm4",
+    "amount":"300",
+    "status":"give"
+}
+
+# ###
+# GET http://localhost:3000/api/users?name=dumm
+# Content-Type: application/json
+
+# ###
+# GET http://localhost:3000/api/finda
+# Content-Type: application/json
